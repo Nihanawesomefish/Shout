@@ -31,7 +31,7 @@ function logout(){
             firebase.database().ref("/").child(room_name).update({
             purpose:"Nihan is adding the room"
             });
-            localStorage.setItem("room_name",room_name);
+            localStorage.setItem("room_name",name);
             window.location="kwitter_page.html"
               }
             function redirectToRoomName(name){
