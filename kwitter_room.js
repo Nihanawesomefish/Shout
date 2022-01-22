@@ -32,11 +32,11 @@ function logout(){
             purpose:"Nihan is adding the room"
             });
             localStorage.setItem("room_name",room_name);
-            window.location="kwitter_page.html"
+            window.location="kwitter_page.html";
               }
             function redirectToRoomName(name){
             console.log(name);
-            localStorage.setItem("room_name",room_name);
-            window.location="kwitter_page.html"
+            localStorage.setItem("room_name",name);
+            window.location="kwitter_page.html";
             }
       

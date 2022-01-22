@@ -30,14 +30,20 @@
 
 	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
 	<img src="Shourt'n social logo.png" class="logo">
-		<h3>See what is going on right Now!</h3>
-		<h4 >Join Shout'n social today</h4>
+		<h3 style="color: white;">See what is going on right Now!</h3>
+		<h4 style="color: white;">Join Shout'n social today</h4>
 		<div class="form-group">
-		  <label >User Name:</label>
+		  <label style="color: white; font-size: medium;">User Name:</label>
 <input type="text" id="user_name" class="form-control" placeholder="Enter The User Name ツ">
+<br>
+<input type="text" id="pwd" class="form-control" placeholder="Put in Your Password ツ"> </div>
 		</div>
-		<button  onclick="addUser()" id="login_button" class="btn btn-primary">Log in </button>
+		<button  onclick="addUser()" id="login_button" class="btn btn-primary">Click here to log in </button>
 		<br><br>
+		<button id="login_create_button" class="btn btn-primary" onclick="addnewUser()">create Log in</button>
+		<br>
+		<label id="check">User exists or not</label> <br><br>
+
 	</div>
 </center>
 </body>
