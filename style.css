@@ -6,7 +6,9 @@
 
 body
 {
-background-image: linear-gradient(to right top, #6589a5, #4b687c, #416072, #314855, #25373f);
+background-image: url("gif.gif");
+background-size: cover;
+/*background-image: linear-gradient(to right top, #6589a5, #4b687c, #416072, #314855, #25373f);*/
 }
 
 .header
@@ -20,7 +22,8 @@ background-image: linear-gradient(to right top, #6589a5, #4b687c, #416072, #3148
 
 .login_div
 {
-	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+	background: rgba(255, 255, 255, 0);float: none;border-radius: 15px;
+	
 }
 
 .logo
@@ -30,25 +33,39 @@ background-image: linear-gradient(to right top, #6589a5, #4b687c, #416072, #3148
 
 #login_button
 {
-	width: 80%;border-radius: 15px;
+	width: 30%;border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0);
+	font-size: medium;
+	font-weight: bold;
 }
-
+#login_button:hover{
+background-color: rgb(250, 243, 243);
+color: black;
+}
 .room_name
 {
+	background-color: rgba(255, 255, 255, 0) !important;
 	cursor: pointer;
 	font-size: 20px;
+	
 }
 
 
 #logout
 {
 	font-size: 20px; float: right;
+	
 }
 
 
 #output
 {
-	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+	padding: 10px; width:80%;background: rgba(255,255,255,0);border-radius: 15px;
+	color: white;
+}
+#output:hover{
+color:black;
+background-color: white;
 }
 
 .input_div_room_page
@@ -91,4 +108,33 @@ background-image: linear-gradient(to right top, #6589a5, #4b687c, #416072, #3148
 .message_h4
 {
 	padding-left:5px;color:grey;
+}
+#user_name
+{
+background-color: rgba(255, 255, 255, 0);
+color: white;
+font-weight: bold;
+}
+#check
+{
+color:white;
+font-size: medium;
+}
+
+#login_create_button
+{
+	width: 30%;border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0);
+	font-size: medium;
+	font-weight: bold;
+}
+#login_create_button:hover{
+	background-color: rgb(250, 243, 243);
+	color: black;
+}
+#pwd
+{
+background-color: rgba(255, 255, 255, 0);
+color: white;
+font-weight: bold;
 }
