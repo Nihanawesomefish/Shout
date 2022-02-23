@@ -6,9 +6,9 @@
 
 body
 {
-background-image: url("gif.gif");
+/*background-image: url("gif.gif");
 background-size: cover;
-/*background-image: linear-gradient(to right top, #6589a5, #4b687c, #416072, #314855, #25373f);*/
+background-image: linear-gradient(to right top, #6589a5, #4b687c, #416072, #314855, #25373f);*/
 }
 
 .header
